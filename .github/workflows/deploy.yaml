@@ -3,6 +3,12 @@ name: Deploy to AWS
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - ".gitignore"
+      - "*.md"
+      - ".github/CODEOWNERS"
 
 jobs:
   deploy:
@@ -12,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - run: npm ci
