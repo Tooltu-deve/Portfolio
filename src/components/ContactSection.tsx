@@ -24,7 +24,7 @@ function LinkedinIcon() {
 const quickLinks = [
   {
     label: "GitHub",
-    value: "loviti",
+    value: "Tooltu-deve",
     href: "https://github.com/Tooltu-deve",
     icon: <GithubIcon />,
     hoverBorder: "hover:border-white/30",
