@@ -17,8 +17,7 @@ const projects: Project[] = [
     desc: "Portfolio Website built with Next.js, Tailwind CSS, and TypeScript. Deployed on AWS S3 and CloudFront. CI/CD on GitHub Actions with automated tests and deployments.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript", "AWS S3", "AWS CloudFront"],
     status: "Live",
-    github: "https://github.com/Tooltu-deve/Portfolio",
-    demo: "https://tooltu.io.vn",
+    github: "https://github.com/Tooltu-deve/Portfolio"
   },
   {
     title: "Application on EKS Kubernetes Cluster",
