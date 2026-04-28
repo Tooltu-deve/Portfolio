@@ -2,15 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nguyen Tan Tu | DevOps & Cloud Engineer",
+  title: "Portfolio - Tan Tu",
   description:
-    "Personal portfolio of Nguyen Tan Tu — DevOps & Cloud Engineer specializing in AWS, CI/CD Pipelines, and cloud-native solutions.",
-  keywords: ["AWS", "Cloud Engineer", "DevOps", "CI/CD Pipelines", "TypeScript", "Portfolio"],
-  openGraph: {
-    title: "Nguyen Tan Tu | DevOps & Cloud Engineer",
-    description:
-      "Building scalable cloud solutions with AWS, CI/CD Pipelines, and modern DevOps practices.",
-    type: "website",
+    "Portfolio - Tan Tu - A portfolio website for Tan Tu.",
+  icons: {
+    icon: "/icon.svg?v=2",
+    shortcut: "/icon.svg?v=2",
+    apple: "/icon.svg?v=2",
   },
 };
 
@@ -20,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full scroll-smooth">
-      <body className="min-h-full antialiased bg-[#0a0a0a] text-white">
+    <html lang="en">
+      <body className="bg-[#010828] text-cream font-grotesk">
         {children}
       </body>
     </html>

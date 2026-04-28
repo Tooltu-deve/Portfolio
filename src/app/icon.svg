@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cute astronaut on cloud">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071038"/>
+      <stop offset="1" stop-color="#1B2E72"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="16" cy="16" r="15.5" fill="url(#bg)"/>
+
+  <!-- tiny stars -->
+  <circle cx="6" cy="6" r=".7" fill="#EFF4FF" fill-opacity=".75"/>
+  <circle cx="25.5" cy="7.5" r=".6" fill="#EFF4FF" fill-opacity=".7"/>
+  <circle cx="27" cy="12.5" r=".45" fill="#6FFF00" fill-opacity=".8"/>
+
+  <!-- white cloud -->
+  <g transform="translate(0 1)">
+    <ellipse cx="12" cy="23" rx="4.1" ry="2.4" fill="#FFFFFF"/>
+    <ellipse cx="16.8" cy="22.4" rx="5.1" ry="2.9" fill="#FFFFFF"/>
+    <ellipse cx="21.8" cy="23.1" rx="3.8" ry="2.2" fill="#FFFFFF"/>
+    <rect x="9.5" y="22.6" width="14" height="2.9" rx="1.45" fill="#FFFFFF"/>
+    <ellipse cx="16.5" cy="25.8" rx="7.4" ry="1.2" fill="#DCE6FF" fill-opacity=".45"/>
+  </g>
+
+  <!-- astronaut sitting on cloud -->
+  <g transform="translate(0 .6)">
+    <!-- body -->
+    <rect x="12.3" y="14.3" width="7.4" height="6.2" rx="2" fill="#F4F7FF"/>
+    <!-- legs (sitting pose) -->
+    <rect x="12.6" y="19.1" width="2.8" height="3.4" rx="1.2" fill="#F4F7FF"/>
+    <rect x="16.2" y="19.4" width="3.8" height="2.8" rx="1.2" fill="#F4F7FF"/>
+    <!-- arms -->
+    <ellipse cx="11.7" cy="16.8" rx="1.2" ry="1.8" fill="#F4F7FF"/>
+    <ellipse cx="20.3" cy="16.8" rx="1.2" ry="1.8" fill="#F4F7FF"/>
+    <!-- helmet -->
+    <circle cx="16" cy="11.3" r="4" fill="#F4F7FF"/>
+    <ellipse cx="16" cy="11.3" rx="2.6" ry="1.9" fill="#12245A" stroke="#6FFF00" stroke-width=".42"/>
+
+    <!-- cute face -->
+    <circle cx="15.2" cy="11.15" r=".22" fill="#FFFFFF"/>
+    <circle cx="16.8" cy="11.15" r=".22" fill="#FFFFFF"/>
+    <path d="M15.2 12.05 Q16 12.55 16.8 12.05" fill="none" stroke="#FFFFFF" stroke-width=".25" stroke-linecap="round"/>
+    <circle cx="14.7" cy="11.8" r=".22" fill="#FF9FB3" fill-opacity=".9"/>
+    <circle cx="17.3" cy="11.8" r=".22" fill="#FF9FB3" fill-opacity=".9"/>
+  </g>
+</svg>
