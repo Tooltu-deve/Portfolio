@@ -8,6 +8,7 @@ interface Item {
   tags?: string[];
   logo?: string;
   logoAlt?: string;
+  logoTransparent?: boolean;
 }
 
 const items: Item[] = [
@@ -17,6 +18,9 @@ const items: Item[] = [
     org: "Amazon Web Services (AWS)",
     desc: "Validated ability to design resilient, cost-optimized, and secure architectures on AWS — covering compute, storage, networking, and well-architected best practices.",
     tags: ["AWS", "Solutions Architect", "SAA-C03", "Well-Architected"],
+    logo: "/aws-certified-solutions-architect-associate.png",
+    logoAlt: "AWS Certified Solutions Architect – Associate badge",
+    logoTransparent: true,
   },
   {
     period: "2024 — Present",
@@ -26,6 +30,7 @@ const items: Item[] = [
     tags: ["DSA", "OOP", "Computational Thinking", "Networks", "Databases"],
     logo: "/logo.png",
     logoAlt: "HCMUS logo",
+    logoTransparent: true,
   },
   {
     period: "2025 - Present",
@@ -72,7 +77,9 @@ export default function EducationSection() {
                 <img
                   src={item.logo}
                   alt={item.logoAlt ?? `${item.org} logo`}
-                  className="absolute top-6 right-6 sm:top-8 sm:right-8 w-[4.5rem] h-[4.5rem] sm:w-[5.25rem] sm:h-[5.25rem] object-contain rounded-md bg-white/90 p-1 shrink-0"
+                  className={`absolute top-6 right-6 sm:top-8 sm:right-8 w-[4.5rem] h-[4.5rem] sm:w-[5.25rem] sm:h-[5.25rem] object-contain shrink-0 ${
+                    item.logoTransparent ? "" : "rounded-md bg-white/90 p-1"
+                  }`}
                   loading="lazy"
                 />
               )}
