@@ -4,7 +4,7 @@ const ABOUT_VIDEO =
   "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_151551_992053d1-3d3e-4b8c-abac-45f22158f411.mp4";
 
 const INTRO_POINTS = [
-  "A second-year IT student at VNU-HCM University of Science with a deep-seated passion for backend development and cloud-native solutions.",
+  "A second-year IT student at VNU-HCM University of Science with a deep-seated passion for DevOps and cloud-native solutions.",
   "I focus on architecting scalable systems and automating deployments through CI/CD pipelines on AWS.",
   "Driven by a hands-on learning philosophy, I am constantly bridging the gap between academic theory and real-world infrastructure challenges.",
 ];

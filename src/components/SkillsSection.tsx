@@ -48,6 +48,19 @@ const skillGroups: SkillGroup[] = [
       { name: "Nginx", tag: "Proxy" },
     ],
   },
+  {
+    category: "Networking",
+    skills: [
+      { name: "VPC", tag: "Isolation" },
+      { name: "Subnets & Routing", tag: "Design" },
+      { name: "Security Groups", tag: "Firewall" },
+      { name: "NAT Gateway", tag: "Egress" },
+      { name: "Load Balancing", tag: "ALB / NLB" },
+      { name: "DNS", tag: "Route 53" },
+      { name: "TCP/IP", tag: "Fundamentals" },
+      { name: "VPN", tag: "Connectivity" },
+    ],
+  },
 ];
 
 export default function SkillsSection() {

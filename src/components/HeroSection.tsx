@@ -93,10 +93,10 @@ export default function HeroSection() {
             </h1>
 
             <span
-              className="font-condiment text-neon block mt-2 sm:mt-3 md:mt-0 md:absolute md:-top-4 md:right-4 lg:right-[-60px] -rotate-1 opacity-90 text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px]"
+              className="font-condiment text-neon block mt-2 sm:mt-3 md:mt-0 md:absolute md:-top-4 md:right-4 lg:right-[-90px] -rotate-1 opacity-90 text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px]"
               style={{ mixBlendMode: "exclusion" }}
             >
-              cloud engineer
+              DevOps engineer
             </span>
           </div>
 

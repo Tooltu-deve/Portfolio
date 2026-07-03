@@ -12,6 +12,13 @@ interface Item {
 
 const items: Item[] = [
   {
+    period: "2026",
+    title: "AWS Certified Solutions Architect – Associate (SAA-C03)",
+    org: "Amazon Web Services (AWS)",
+    desc: "Validated ability to design resilient, cost-optimized, and secure architectures on AWS — covering compute, storage, networking, and well-architected best practices.",
+    tags: ["AWS", "Solutions Architect", "SAA-C03", "Well-Architected"],
+  },
+  {
     period: "2024 — Present",
     title: "Pursuing a Bachelor's Degree in Information Technology",
     org: "Vietnam National University, Ho Chi Minh City, University of Science",
